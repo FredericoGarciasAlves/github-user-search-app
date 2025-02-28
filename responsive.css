@@ -1,0 +1,175 @@
+@media (max-width: 375px) {
+    @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+    .container {
+        padding-bottom: 8rem;
+        width: 100%;
+    }
+
+    .container .header {
+        margin-top: 3rem;
+        width: 32.7rem;
+    }
+
+    .container .search-box {
+        width: 32.7rem;
+        height: 6rem;
+    }
+
+    .container .search-box .icon-search {
+        left: 1.6rem;
+        top: 2rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .container .search-box .search-input {
+        width: 32.7rem;
+        height: 6rem;
+        padding-left: 4.5rem;
+        box-shadow: 0rem 0.7rem 2rem rgba(43, 52, 66, 0.2);
+    }
+
+    .container .search-box .search-btn {
+        width: 8.4rem;
+        height: 4.6rem;
+        right: 0.7rem;
+        top: 0.65rem;
+    }
+
+    .container .search-box .message-erro {
+        position: absolute;
+        color: #f74646;
+        font-size: 1.5rem;
+        top: 1.7rem;
+        right: 9.6rem;
+    }
+
+    .container .profile-card {
+        width: 32.7rem;
+        padding: 3.2rem 2.4rem 4.8rem 2.4rem;
+        margin-top: 1.6rem;
+        position: relative;
+    }
+
+    .container .profile-card .profile-img {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 2.4rem;
+        top: 3.2rem;
+    }
+
+    .container .profile-card .profile-info .profile-box {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        width: 20rem;
+        margin-left: 11.3rem;
+    }
+
+    .container .profile-card .profile-info .profile-box .box-n-u .profile-name {
+        font-size: 1.6rem;
+    }
+
+    .container
+        .profile-card
+        .profile-info
+        .profile-box
+        .box-n-u
+        .profile-username {
+        font-size: 1.3rem;
+    }
+
+    .container .profile-card .profile-info .profile-box .profile-join-date,
+    .container .profile-card .profile-info .profile-box .profile-join-date .day,
+    .container
+        .profile-card
+        .profile-info
+        .profile-box
+        .profile-join-date
+        .month,
+    .container
+        .profile-card
+        .profile-info
+        .profile-box
+        .profile-join-date
+        .year {
+        font-size: 1.2rem;
+        margin-top: 0.6rem;
+    }
+
+    .container .profile-card .profile-info .profile-bio {
+        margin-top: 3.2rem;
+    }
+
+    .container .profile-card .profile-info .stats {
+        display: flex;
+        padding: 1.8rem 1.4rem;
+        width: 27.9rem;
+        height: 8.5rem;
+        margin-top: 4.1rem;
+    }
+
+    .container .profile-card .profile-info .stats .stat {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .profile-card .profile-info .stats .stat .stats-name {
+        font-size: 1.1rem;
+    }
+
+    .container .profile-card .profile-info .stats .stat .stats-number {
+        font-size: 1.6rem;
+        margin-top: 0.6rem;
+    }
+
+    .container .profile-card .profile-info .extra-info {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(4, auto);
+        grid-column-gap: 0rem;
+        grid-row-gap: 1.6 rem;
+        margin-top: 2.4rem;
+    }
+
+    .container .profile-card .profile-info .extra-info .box-twitter {
+        display: flex;
+        column-gap: 2rem;
+        align-items: center;
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .container
+        .profile-card
+        .profile-info
+        .extra-info
+        .box-location
+        .location-name {
+        width: 23rem;
+    }
+
+    .container
+        .profile-card
+        .profile-info
+        .extra-info
+        .box-twitter
+        .twitter-username {
+        width: 23rem;
+    }
+
+    .container .profile-card .profile-info .extra-info .box-link .github-link {
+        width: 23rem;
+    }
+    .container
+        .profile-card
+        .profile-info
+        .extra-info
+        .box-company
+        .company-name {
+        width: 23rem;
+    }
+}

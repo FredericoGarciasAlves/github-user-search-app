@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    --main-bg-btn-toggle: #f6f8ff;
+    --text-color-bg-input-profile-card: #fff;
+    --profile-name: #2b3442;
+    --profile-join-date: #697c9a;
+    --profile-bio: #4b6a9b;
+}
+
+.dark-theme {
+    --main-bg-btn-toggle: #141d2f;
+    --text-color-bg-input-profile-card: #1e2a47;
+    --profile-name: #fff;
+    --profile-join-date: #fff;
+    --profile-bio: #fff;
+}
+
+.container {
+    width: 100%;
+    padding-bottom: 14.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Space Mono", sans-serif;
+    background-color: var(--main-bg-btn-toggle);
+}
+
+.container .header {
+    margin-top: 14.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73rem;
+    height: 3.8rem;
+}
+
+.container .header .title {
+    font-size: 3rem;
+    color: var(--profile-name);
+}
+
+.container .header .box-theme {
+    display: flex;
+    column-gap: 1.6rem;
+    align-items: center;
+}
+
+.container .header .box-theme .theme-toggle-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.container .header .theme-toggle-btn {
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+    background-color: var(--main-bg-btn-toggle);
+    color: var(--profile-name);
+    border: none;
+}
+
+.container .search-box {
+    width: 73rem;
+    height: 6.9rem;
+    position: relative;
+    margin-top: 3.6rem;
+}
+
+.container .search-box .icon-search {
+    position: absolute;
+    left: 3.2rem;
+    top: 2.3rem;
+}
+
+.container .search-box .search-input {
+    width: 73rem;
+    height: 6.9rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0rem 1.5rem 2.5rem rgba(43, 52, 66, 0.2);
+    padding-left: 8rem;
+    font-size: 1.6rem;
+    background-color: var(--text-color-bg-input-profile-card);
+}
+
+.container .search-box .search-input::placeholder {
+    font-size: 1.6rem;
+    color: var(--profile-join-date);
+}
+
+.container .search-box .search-input:hover {
+    cursor: pointer;
+}
+
+.container .search-box .search-btn {
+    width: 10.6rem;
+    height: 5rem;
+    border-radius: 2rem;
+    background-color: #0079ff;
+    position: absolute;
+    right: 1rem;
+    top: 0.95rem;
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.container .search-box .message-erro {
+    position: absolute;
+    color: #f74646;
+    font-size: 1.5rem;
+    top: 2.4rem;
+    right: 14rem;
+}
+
+.container .profile-card {
+    width: 73rem;
+    padding: 4.8rem;
+    display: flex;
+    background-color: var(--text-color-bg-input-profile-card);
+    margin-top: 2.4rem;
+    border-radius: 2rem;
+}
+
+.container .profile-card .profile-img {
+    width: 11.7rem;
+    height: 11.7rem;
+    border-radius: 50%;
+    margin-right: 3.7rem;
+}
+
+.container .profile-card .profile-info .profile-box {
+    display: flex;
+    justify-content: space-between;
+    width: 48rem;
+}
+
+.container .profile-card .profile-info .profile-box .box-n-u .profile-name {
+    font-size: 2.6rem;
+    color: var(--profile-name);
+}
+
+.container .profile-card .profile-info .profile-box .box-n-u .profile-username {
+    font-size: 1.6rem;
+    color: #0079ff;
+}
+
+.container .profile-card .profile-info .profile-box .profile-join-date,
+.container .profile-card .profile-info .profile-box .profile-join-date .day,
+.container .profile-card .profile-info .profile-box .profile-join-date .month,
+.container .profile-card .profile-info .profile-box .profile-join-date .year {
+    font-size: 1.5rem;
+    color: var(--profile-join-date);
+}
+
+.container .profile-card .profile-info .profile-bio {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: var(--profile-bio);
+}
+
+.container .profile-card .profile-info .stats {
+    display: flex;
+    padding: 1.5rem 6.3rem 1.7rem 3.2rem;
+    width: 48rem;
+    height: 8.5rem;
+    border-radius: 2rem;
+    background-color: var(--main-bg-btn-toggle);
+    justify-content: space-between;
+    margin-top: 3.2rem;
+}
+
+.container .profile-card .profile-info .stats .stat .stats-name {
+    font-size: 1.3rem;
+    color: var(--profile-bio);
+}
+
+.container .profile-card .profile-info .stats .stat .stats-number {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--profile-name);
+}
+
+.container .profile-card .profile-info .extra-info {
+    display: grid;
+    grid-template-columns: repeat(2, 21.1rem);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 6.2rem;
+    grid-row-gap: 2rem;
+    margin-top: 3.7rem;
+}
+
+.container .profile-card .profile-info .extra-info .box-location {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.container
+    .profile-card
+    .profile-info
+    .extra-info
+    .box-location
+    .location-icon {
+    width: 2.4rem;
+    height: 3rem;
+    fill: var(--profile-bio);
+}
+
+.container
+    .profile-card
+    .profile-info
+    .extra-info
+    .box-location
+    .location-name {
+    font-size: 1.3rem;
+    color: var(--profile-bio);
+    text-shadow: 0rem 0.5rem 0.5rem;
+    width: 17rem;
+}
+
+.container .profile-card .profile-info .extra-info .box-twitter {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.container .profile-card .profile-info .extra-info .box-twitter .twitter-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--profile-bio);
+}
+
+.container
+    .profile-card
+    .profile-info
+    .extra-info
+    .box-twitter
+    .twitter-username {
+    font-size: 1.3rem;
+    color: var(--profile-bio);
+    width: 17rem;
+}
+.container
+    .profile-card
+    .profile-info
+    .extra-info
+    .box-twitter
+    .twitter-username:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: ease-in-out 0.7s;
+}
+
+.container .profile-card .profile-info .extra-info .box-link {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.container .profile-card .profile-info .extra-info .box-link .github-link {
+    font-size: 1.3rem;
+    color: var(--profile-bio);
+    width: 21.1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 17rem;
+}
+
+.container .profile-card .profile-info .extra-info .box-link .link-icon {
+    width: 2rem;
+    height: 2rem;
+    color: var(--profile-bio);
+}
+
+.container
+    .profile-card
+    .profile-info
+    .extra-info
+    .box-link
+    .github-link:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.7s;
+    text-decoration: underline;
+}
+.container .profile-card .profile-info .extra-info .box-company {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.container .profile-card .profile-info .extra-info .box-company .company-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    color: var(--profile-bio);
+}
+
+.container .profile-card .profile-info .extra-info .box-company .company-name {
+    font-size: 1.3rem;
+    color: var(--profile-bio);
+    width: 17rem;
+}
+
+.container
+    .profile-card
+    .profile-info
+    .extra-info
+    .box-company
+    .company-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: ease-in-out 0.7s;
+}
