@@ -20,15 +20,7 @@ This is a solution to the [GitHub user search app challenge on Frontend Mentor](
 
 ## Overview
 
-Esse é um projeto de busca de perfis do Github fala sobre como os perfis são feitos e quantos são compartilhados.
-
-Esse é um projeto de busca de perfil aonde busca as informações desse perfil, status. A base desse projeto do frontend mentor é basicamente claro o HTML o css, o que op frontend Mentor nos possibilita é trabalhar com designin feitoa por profissionais com projetos realistas.
-
-Esse projeto envolve muitos aspectos de css mas, é o começo das APIS pra mim e nesse projeto na dificuldade junior é os primeiros que aparecem.
-
-Temos tambem a mudança de cor dos temas, aonde busca o tema do navegador, ainda não testei se funciona mas li o código e dizia que fazia isso, as trocas de tema esta funcionando.
-
-apenas o link do site do perfil não estava na API REST que eu estava trabalhando então coloquei o do perfil aonde achei mais conveniente
+This project aims to search for profiles looking for information such as status, name, etc.
 
 ### The challenge
 
@@ -43,15 +35,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./assets/Screenshot%202025-02-28%20at%2015-49-44%20GitHub%20Profile%20Finder.png)
 
 ### Links
 
@@ -60,15 +44,19 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-Estou bem seguro em usar APIs, então acabei me deparando com o HTML e o CSS, já estou ficando um poucio cansado em começar projetos a todo momento, na verdade eu comecei um, mas a aula com a professora de JS passou um review usando API e deu pra notar o que é uma API e fiquei empolgadão em fazer uim projeto com API, estudei na faculdade IoT e como funciona além de arquitetura web e web services estão já esta começando as topológias e isso é muito legal.
+I'm pretty confident in using APIs, so I ended up coming across HTML and CSS. The class with the JS teacher gave a review using API and I was able to see what an API is and I was really excited about doing a project with API. I studied IoT at college and how it works, in addition to reading about web architecture and web services, they are already starting to have a "system" and that's really cool.
 
-Então eu peguei a foto do preview e coloquei na IA e pedi pra fazer o esqueleto do site, ela fez mas não ficou ideal para o layout, eu teria que fazer muito CSS, arrumei o esqueleto, não consigo identificar quais aspectos eu to dentro de mim quando eu estou codando (quando esta muito, quieto eu acabo colocando uma musica pra ter algo de fundo, ou mesmo o fundo não tiver algo fluindo bem eu coloco uma musica pra tentar melhorar aqui), como falei não sei quais aspectos estou praticando quando estou codando, estou lendo o livro do flusser (ele aborda um pouco da historia/conceito/filosofias da aréa da informatica, principalmente sistemas humanos e analogias com nosso mundo com funcionalidades)
+So I took the preview photo and put it in the AI ​​and asked it to create the skeleton of the site. It did it but it wasn't ideal for the layout. I would have to do a lot of CSS, so I fixed the skeleton. The CSS was what took the most work (and it lasted). The SVGs were interfering with my browser. I didn't want to style them using JS, so I chose to get them from the web. The JS was easy, even though I wasn't used to the fetch method, I did it anyway with some expertise. My goal was to quickly do what was missing after using the API so I could move on to the next project.
 
-O css é o que deu mais trabalho (duradouro), os svg estavam com interferencia no meu navegador, não quiz estilizar pelo js, então optei por pegar da web, o JS foi facil, mesmo eu não acostumado com o método fetch fiz mesmo acim com certa pericia, meu proposito era já partir para o proximo projeto depois que eu já tinha usado a API
+The only thing is that the profile website link wasn't in the REST API I was working on, so I put the profile link where I found it most convenient.
+
+We also have the option to change the color of the themes, where it searches for the browser theme. I haven't tested if it works yet, but I read the code and it said it did that. The theme changes are working.
+
+I can't identify which aspects I'm using inside myself when I'm coding (when it's too quiet, I end up putting on some music to have something in the background, or even if the background doesn't flow well, I put on some music to try to improve it). As I said, I don't know which aspects I'm practicing when I'm coding. I'm reading Flusser's book (he covers a bit of the history/concept/philosophies of the IT area, mainly human systems and analogies with our world with functionalities).
 
 ### Continued development
 
-pretendo fazer mais projetos com APIs com designis mais intuitivos.
+I intend to do more projects with APIs with more intuitive designs.
 
 ## Author
 
